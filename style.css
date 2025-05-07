@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+body{
+  background: linear-gradient(to right,#111,#13133b);
+  color: #fff;
+  line-height: 1.6;
+
+}
+header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg,#5a93f5,#0b1967);
+  text-align: center;
+}
+header h1{
+  font-size: 3rem;
+
+}
+header span{
+  color: #6f1985;
+}
+
+header p{
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #eee;
+
+}
+
+.btn{
+  margin-top: 20px;
+  margin: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  background: #eee;
+  color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3 ease,transform 0.2s ease;
+}
+
+.btn:hover{
+  background: linear-gradient(90deg,#ff0080,#ff8c00);
+  
+  color: white;
+  transform: scale(1.07);
+}
+section{
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #aba9aa;
+}
+.skill{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.skill p{
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #5a93f5;
+
+}
+
+.bar{
+  background: #333;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 25px;
+}
+.fill{
+  background: linear-gradient(90deg,#ff0080,#ff8c00);
+  height: 100%;
+  line-height: 26px;
+  color: #eee;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 14px;
+  border-radius: 20px 0 0 20px;
+  animation: fillBar 2s ease-out forwards;
+}
+a{
+  color: #aba9aa;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+@keyframes fillBar{
+  from{
+    width: 0;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+section p{
+  font-size: 1.5 rem;
+  margin-bottom: 20px;
+  color: #aba9aa;
+}
+.contact-item{
+  margin: 10px 0;
+  font-size: 18px;
+}
+.contact-item i{
+  margin-right: 10px;
+  font-size: 30px;
+  color: #adb2d1;
+}
+.contact-item a{
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.3s;
+
+}
+.contact-item i:hover{
+  color: #ff80ab;
+}
